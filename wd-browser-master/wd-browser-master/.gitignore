@@ -1,0 +1,5 @@
+﻿# Log files, no need to sync these.
+*.log
+
+# User-specific files
+*.vbw

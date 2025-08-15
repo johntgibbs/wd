@@ -1,0 +1,1917 @@
+
+; Dependency file for setup wizards.
+
+[Version]
+Version=5.0.37.14
+
+; Dependencies for CRYSTL32.OCX
+
+; Default Dependencies ------------------------------------------------------
+
+[CRYSTL32.ocx]
+Dest=$(WinSysPath)
+Register=$(DLLSelfRegister)
+Version=4.6.37.14
+Uses1=CRPE32.DLL
+Uses2=ComCat.dll
+Uses3=
+CABFileName=CRYSTL32.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTL32.inf
+
+[ComCat.dll]
+Dest=$(WinSysPathSysFile)
+Register=$(DLLSelfRegister)
+Uses1=
+
+[CRPE32.DLL]
+Dest=$(WinSysPath)
+Uses1=IMPLODE.DLL
+Uses2=PG32.DLL
+Uses3=CO2C40EN.DLL
+Uses4=CRXLAT32.DLL
+; database dlls
+Uses5=P2BBND.DLL
+Uses6=P2BDAO.DLL
+Uses7=P2CTDAO.DLL
+Uses8=P2IRDAO.DLL
+Uses9=P2SODBC.DLL
+; export destination dlls
+Uses10=U2DDISK.DLL
+Uses11=U2DMAPI.DLL
+; export format dlls
+Uses12=U2FCR.DLL
+Uses13=U2FDIF.DLL
+Uses14=U2FHTML.DLL
+Uses15=U2FREC.DLL
+Uses16=U2FRTF.DLL
+Uses17=U2FSEPV.DLL
+Uses18=U2FTEXT.DLL
+Uses19=U2FWKS.DLL
+Uses20=U2FWORDW.DLL
+Uses21=U2FXLS.DLL
+Uses22=
+CABFileName=CRYSTL32.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTL32.inf
+
+[IMPLODE.DLL]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTL32.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTL32.inf
+
+[PG32.DLL]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTL32.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTL32.inf
+
+[CO2C40EN.DLL]
+Dest=$(WinSysPath)
+Uses1=MSVCRT20.DLL
+Uses2=
+CABFileName=CRYSTL32.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTL32.inf
+
+[CRXLAT32.DLL]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTL32.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTL32.inf
+
+[MSVCRT20.DLL]
+Dest=$(WinSysPathSysFile)
+Uses1=
+
+; database dll for bound reports
+
+[P2BBND.DLL]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTL32.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTL32.inf
+
+; database dlls for dao reports
+
+[P2BDAO.DLL]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTL32.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTL32.inf
+
+[P2CTDAO.DLL]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTL32.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTL32.inf
+
+[P2IRDAO.DLL]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTL32.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTL32.inf
+
+; database dll for odbc reports
+
+[P2SODBC.DLL]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTL32.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTL32.inf
+
+; export destination dlls
+
+[U2DDISK.DLL]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTL32.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTL32.inf
+
+[U2DMAPI.DLL]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTL32.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTL32.inf
+
+; database format dlls
+
+[U2FCR.DLL]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTL32.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTL32.inf
+
+[U2FDIF.DLL]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTL32.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTL32.inf
+
+[U2FHTML.DLL]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTL32.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTL32.inf
+
+[U2FREC.DLL]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTL32.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTL32.inf
+
+[U2FRTF.DLL]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTL32.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTL32.inf
+
+[U2FSEPV.DLL]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTL32.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTL32.inf
+
+[U2FTEXT.DLL]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTL32.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTL32.inf
+
+[U2FWKS.DLL]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTL32.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTL32.inf
+
+[U2FWORDW.DLL]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTL32.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTL32.inf
+
+[U2FXLS.DLL]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTL32.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTL32.inf
+
+; Localized Dependencies -----------------------------------------------------------
+
+; *** German ***
+; (0007 = primary langid for German)
+
+[CRYSTL32.OCX <0007>]
+Uses1=CC245DE.DLL
+Uses2=
+
+[CRPE32.DLL <0007>]
+Uses1=CR2C40DE.DLL
+Uses2=
+
+[P2BBND.DLL <0007>]
+Uses1=P3D4BDDE.DLL
+Uses2=
+
+[P2BDAO.DLL <0007>]
+Uses1=P3BDAODE.DLL
+Uses2=
+
+[P2CTDAO.DLL <0007>]
+Uses1=P3CDAODE.DLL
+Uses2=
+
+[P2IRDAO.DLL <0007>]
+Uses1=P3RDAODE.DLL
+Uses2=
+
+[P2SODBC.DLL <0007>]
+Uses1=P3S4ODDE.DLL
+Uses2=
+
+[U2DDISK.DLL <0007>]
+Uses1=X3D4DKDE.DLL
+Uses2=
+
+[U2DMAPI.DLL <0007>]
+Uses1=X3D4MPDE.DLL
+Uses2=
+
+[U2FCR.DLL <0007>]
+Uses1=X2F4CRDE.DLL
+Uses2=
+
+[U2FDIF.DLL <0007>]
+Uses1=X2F4DFDE.DLL
+Uses2=
+
+[U2FHTML.DLL <0007>]
+Uses1=X2F4HTDE.DLL
+Uses2=
+
+[U2FREC.DLL <0007>]
+Uses1=X2F4RCDE.DLL
+Uses2=
+
+[U2FRTF.DLL <0007>]
+Uses1=X2F4RTDE.DLL
+Uses2=
+
+[U2FSEPV.DLL <0007>]
+Uses1=X2F4SVDE.DLL
+Uses2=
+
+[U2FTEXT.DLL <0007>]
+Uses1=X2F4TXDE.DLL
+Uses2=
+
+[U2FWKS.DLL <0007>]
+Uses1=X2F4WKDE.DLL
+Uses2=
+
+[U2FWORDW.DLL <0007>]
+Uses1=X2F4WDDE.DLL
+Uses2=
+
+[U2FXLS.DLL <0007>]
+Uses1=X2F4XLDE.DLL
+Uses2=
+
+[CC245DE.DLL <0007>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTDE.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTDE.inf
+
+[CR2C40DE.DLL <0007>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTDE.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTDE.inf
+
+[P3D4BDDE.DLL <0007>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTDE.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTDE.inf
+
+[P3BDAODE.DLL <0007>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTDE.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTDE.inf
+
+[P3CDAODE.DLL <0007>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTDE.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTDE.inf
+
+[P3RDAODE.DLL <0007>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTDE.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTDE.inf
+
+[P3S4ODDE.DLL <0007>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTDE.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTDE.inf
+
+[X3D4DKDE.DLL <0007>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTDE.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTDE.inf
+
+[X3D4MPDE.DLL <0007>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTDE.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTDE.inf
+
+[X2F4CRDE.DLL <0007>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTDE.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTDE.inf
+
+[X2F4DFDE.DLL <0007>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTDE.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTDE.inf
+
+[X2F4HTDE.DLL <0007>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTDE.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTDE.inf
+
+[X2F4RCDE.DLL <0007>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTDE.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTDE.inf
+
+[X2F4RTDE.DLL <0007>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTDE.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTDE.inf
+
+[X2F4SVDE.DLL <0007>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTDE.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTDE.inf
+
+[X2F4TXDE.DLL <0007>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTDE.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTDE.inf
+
+[X2F4WKDE.DLL <0007>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTDE.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTDE.inf
+
+[X2F4WDDE.DLL <0007>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTDE.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTDE.inf
+
+[X2F4XLDE.DLL <0007>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTDE.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTDE.inf
+
+; *** French ***
+; (000C = primary langid for French)
+
+[CRYSTL32.OCX <000C>]
+Uses1=CC245FR.DLL
+Uses2=
+
+[CRPE32.DLL <000C>]
+Uses1=CR2C40FR.DLL
+Uses2=
+
+[P2BBND.DLL <000C>]
+Uses1=P3D4BDFR.DLL
+Uses2=
+
+[P2BDAO.DLL <000C>]
+Uses1=P3BDAOFR.DLL
+Uses2=
+
+[P2CTDAO.DLL <000C>]
+Uses1=P3CDAOFR.DLL
+Uses2=
+
+[P2IRDAO.DLL <000C>]
+Uses1=P3RDAOFR.DLL
+Uses2=
+
+[P2SODBC.DLL <000C>]
+Uses1=P3S4ODFR.DLL
+Uses2=
+
+[U2DDISK.DLL <000C>]
+Uses1=X3D4DKFR.DLL
+Uses2=
+
+[U2DMAPI.DLL <000C>]
+Uses1=X3D4MPFR.DLL
+Uses2=
+
+[U2FCR.DLL <000C>]
+Uses1=X2F4CRFR.DLL
+Uses2=
+
+[U2FDIF.DLL <000C>]
+Uses1=X2F4DFFR.DLL
+Uses2=
+
+[U2FHTML.DLL <000C>]
+Uses1=X2F4HTFR.DLL
+Uses2=
+
+[U2FREC.DLL <000C>]
+Uses1=X2F4RCFR.DLL
+Uses2=
+
+[U2FRTF.DLL <000C>]
+Uses1=X2F4RTFR.DLL
+Uses2=
+
+[U2FSEPV.DLL <000C>]
+Uses1=X2F4SVFR.DLL
+Uses2=
+
+[U2FTEXT.DLL <000C>]
+Uses1=X2F4TXFR.DLL
+Uses2=
+
+[U2FWKS.DLL <000C>]
+Uses1=X2F4WKFR.DLL
+Uses2=
+
+[U2FWORDW.DLL <000C>]
+Uses1=X2F4WDFR.DLL
+Uses2=
+
+[U2FXLS.DLL <000C>]
+Uses1=X2F4XLFR.DLL
+Uses2=
+
+[CC245FR.DLL <000C>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTFR.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTFR.inf
+
+[CR2C40FR.DLL <000C>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTFR.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTFR.inf
+
+[P3D4BDFR.DLL <000C>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTFR.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTFR.inf
+
+[P3BDAOFR.DLL <000C>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTFR.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTFR.inf
+
+[P3CDAOFR.DLL <000C>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTFR.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTFR.inf
+
+[P3RDAOFR.DLL <000C>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTFR.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTFR.inf
+
+[P3S4ODFR.DLL <000C>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTFR.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTFR.inf
+
+[X3D4DKFR.DLL <000C>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTFR.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTFR.inf
+
+[X3D4MPFR.DLL <000C>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTFR.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTFR.inf
+
+[X2F4CRFR.DLL <000C>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTFR.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTFR.inf
+
+[X2F4DFFR.DLL <000C>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTFR.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTFR.inf
+
+[X2F4HTFR.DLL <000C>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTFR.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTFR.inf
+
+[X2F4RCFR.DLL <000C>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTFR.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTFR.inf
+
+[X2F4RTFR.DLL <000C>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTFR.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTFR.inf
+
+[X2F4SVFR.DLL <000C>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTFR.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTFR.inf
+
+[X2F4TXFR.DLL <000C>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTFR.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTFR.inf
+
+[X2F4WKFR.DLL <000C>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTFR.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTFR.inf
+
+[X2F4WDFR.DLL <000C>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTFR.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTFR.inf
+
+[X2F4XLFR.DLL <000C>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTFR.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTFR.inf
+
+; *** Italian ***
+; (0010 = primary langid for Italian)
+
+[CRYSTL32.OCX <0010>]
+Uses1=CC245IT.DLL
+Uses2=
+
+[CRPE32.DLL <0010>]
+Uses1=CR2C40IT.DLL
+Uses2=
+
+[P2BBND.DLL <0010>]
+Uses1=P3D4BDIT.DLL
+Uses2=
+
+[P2BDAO.DLL <0010>]
+Uses1=P3BDAOIT.DLL
+Uses2=
+
+[P2CTDAO.DLL <0010>]
+Uses1=P3CDAOIT.DLL
+Uses2=
+
+[P2IRDAO.DLL <0010>]
+Uses1=P3RDAOIT.DLL
+Uses2=
+
+[P2SODBC.DLL <0010>]
+Uses1=P3S4ODIT.DLL
+Uses2=
+
+[U2DDISK.DLL <0010>]
+Uses1=X3D4DKIT.DLL
+Uses2=
+
+[U2DMAPI.DLL <0010>]
+Uses1=X3D4MPIT.DLL
+Uses2=
+
+[U2FCR.DLL <0010>]
+Uses1=X2F4CRIT.DLL
+Uses2=
+
+[U2FDIF.DLL <0010>]
+Uses1=X2F4DFIT.DLL
+Uses2=
+
+[U2FHTML.DLL <0010>]
+Uses1=X2F4HTIT.DLL
+Uses2=
+
+[U2FREC.DLL <0010>]
+Uses1=X2F4RCIT.DLL
+Uses2=
+
+[U2FRTF.DLL <0010>]
+Uses1=X2F4RTIT.DLL
+Uses2=
+
+[U2FSEPV.DLL <0010>]
+Uses1=X2F4SVIT.DLL
+Uses2=
+
+[U2FTEXT.DLL <0010>]
+Uses1=X2F4TXIT.DLL
+Uses2=
+
+[U2FWKS.DLL <0010>]
+Uses1=X2F4WKIT.DLL
+Uses2=
+
+[U2FWORDW.DLL <0010>]
+Uses1=X2F4WDIT.DLL
+Uses2=
+
+[U2FXLS.DLL <0010>]
+Uses1=X2F4XLIT.DLL
+Uses2=
+
+[CC245IT.DLL <0010>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTIT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTIT.inf
+
+[CR2C40IT.DLL <0010>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTIT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTIT.inf
+
+[P3D4BDIT.DLL <0010>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTIT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTIT.inf
+
+[P3BDAOIT.DLL <0010>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTIT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTIT.inf
+
+[P3CDAOIT.DLL <0010>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTIT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTIT.inf
+
+[P3RDAOIT.DLL <0010>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTIT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTIT.inf
+
+[P3S4ODIT.DLL <0010>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTIT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTIT.inf
+
+[X3D4DKIT.DLL <0010>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTIT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTIT.inf
+
+[X3D4MPIT.DLL <0010>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTIT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTIT.inf
+
+[X2F4CRIT.DLL <0010>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTIT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTIT.inf
+
+[X2F4DFIT.DLL <0010>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTIT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTIT.inf
+
+[X2F4HTIT.DLL <0010>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTIT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTIT.inf
+
+[X2F4RCIT.DLL <0010>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTIT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTIT.inf
+
+[X2F4RTIT.DLL <0010>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTIT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTIT.inf
+
+[X2F4SVIT.DLL <0010>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTIT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTIT.inf
+
+[X2F4TXIT.DLL <0010>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTIT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTIT.inf
+
+[X2F4WKIT.DLL <0010>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTIT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTIT.inf
+
+[X2F4WDIT.DLL <0010>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTIT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTIT.inf
+
+[X2F4XLIT.DLL <0010>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTIT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTIT.inf
+
+; *** Spanish ***
+; (000A = primary langid for Spanish)
+
+[CRYSTL32.OCX <000A>]
+Uses1=CC245ES.DLL
+Uses2=
+
+[CRPE32.DLL <000A>]
+Uses1=CR2C40ES.DLL
+Uses2=
+
+[P2BBND.DLL <000A>]
+Uses1=P3D4BDES.DLL
+Uses2=
+
+[P2BDAO.DLL <000A>]
+Uses1=P3BDAOES.DLL
+Uses2=
+
+[P2CTDAO.DLL <000A>]
+Uses1=P3CDAOES.DLL
+Uses2=
+
+[P2IRDAO.DLL <000A>]
+Uses1=P3RDAOES.DLL
+Uses2=
+
+[P2SODBC.DLL <000A>]
+Uses1=P3S4ODES.DLL
+Uses2=
+
+[U2DDISK.DLL <000A>]
+Uses1=X3D4DKES.DLL
+Uses2=
+
+[U2DMAPI.DLL <000A>]
+Uses1=X3D4MPES.DLL
+Uses2=
+
+[U2FCR.DLL <000A>]
+Uses1=X2F4CRES.DLL
+Uses2=
+
+[U2FDIF.DLL <000A>]
+Uses1=X2F4DFES.DLL
+Uses2=
+
+[U2FHTML.DLL <000A>]
+Uses1=X2F4HTES.DLL
+Uses2=
+
+[U2FREC.DLL <000A>]
+Uses1=X2F4RCES.DLL
+Uses2=
+
+[U2FRTF.DLL <000A>]
+Uses1=X2F4RTES.DLL
+Uses2=
+
+[U2FSEPV.DLL <000A>]
+Uses1=X2F4SVES.DLL
+Uses2=
+
+[U2FTEXT.DLL <000A>]
+Uses1=X2F4TXES.DLL
+Uses2=
+
+[U2FWKS.DLL <000A>]
+Uses1=X2F4WKES.DLL
+Uses2=
+
+[U2FWORDW.DLL <000A>]
+Uses1=X2F4WDES.DLL
+Uses2=
+
+[U2FXLS.DLL <000A>]
+Uses1=X2F4XLES.DLL
+Uses2=
+
+[CC245ES.DLL <000A>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTES.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTES.inf
+
+[CR2C40ES.DLL <000A>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTES.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTES.inf
+
+[P3D4BDES.DLL <000A>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTES.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTES.inf
+
+[P3BDAOES.DLL <000A>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTES.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTES.inf
+
+[P3CDAOES.DLL <000A>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTES.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTES.inf
+
+[P3RDAOES.DLL <000A>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTES.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTES.inf
+
+[P3S4ODES.DLL <000A>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTES.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTES.inf
+
+[X3D4DKES.DLL <000A>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTES.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTES.inf
+
+[X3D4MPES.DLL <000A>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTES.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTES.inf
+
+[X2F4CRES.DLL <000A>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTES.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTES.inf
+
+[X2F4DFES.DLL <000A>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTES.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTES.inf
+
+[X2F4HTES.DLL <000A>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTES.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTES.inf
+
+[X2F4RCES.DLL <000A>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTES.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTES.inf
+
+[X2F4RTES.DLL <000A>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTES.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTES.inf
+
+[X2F4SVES.DLL <000A>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTES.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTES.inf
+
+[X2F4TXES.DLL <000A>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTES.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTES.inf
+
+[X2F4WKES.DLL <000A>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTES.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTES.inf
+
+[X2F4WDES.DLL <000A>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTES.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTES.inf
+
+[X2F4XLES.DLL <000A>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTES.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTES.inf
+
+; *** Japanese ***
+; (0011 = primary langid for Japanese)
+
+[CRYSTL32.OCX <0011>]
+Uses1=CC245JP.DLL
+Uses2=
+
+[CRPE32.DLL <0011>]
+Uses1=CR2C40JP.DLL
+Uses2=
+
+[P2BBND.DLL <0011>]
+Uses1=P3D4BDJP.DLL
+Uses2=
+
+[P2BDAO.DLL <0011>]
+Uses1=P3BDAOJP.DLL
+Uses2=
+
+[P2CTDAO.DLL <0011>]
+Uses1=P3CDAOJP.DLL
+Uses2=
+
+[P2IRDAO.DLL <0011>]
+Uses1=P3RDAOJP.DLL
+Uses2=
+
+[P2SODBC.DLL <0011>]
+Uses1=P3S4ODJP.DLL
+Uses2=
+
+[U2DDISK.DLL <0011>]
+Uses1=X3D4DKJP.DLL
+Uses2=
+
+[U2DMAPI.DLL <0011>]
+Uses1=X3D4MPJP.DLL
+Uses2=
+
+[U2FCR.DLL <0011>]
+Uses1=X2F4CRJP.DLL
+Uses2=
+
+[U2FDIF.DLL <0011>]
+Uses1=X2F4DFJP.DLL
+Uses2=
+
+[U2FHTML.DLL <0011>]
+Uses1=X2F4HTJP.DLL
+Uses2=
+
+[U2FREC.DLL <0011>]
+Uses1=X2F4RCJP.DLL
+Uses2=
+
+[U2FRTF.DLL <0011>]
+Uses1=X2F4RTJP.DLL
+Uses2=
+
+[U2FSEPV.DLL <0011>]
+Uses1=X2F4SVJP.DLL
+Uses2=
+
+[U2FTEXT.DLL <0011>]
+Uses1=X2F4TXJP.DLL
+Uses2=
+
+[U2FWKS.DLL <0011>]
+Uses1=X2F4WKJP.DLL
+Uses2=
+
+[U2FWORDW.DLL <0011>]
+Uses1=X2F4WDJP.DLL
+Uses2=
+
+[U2FXLS.DLL <0011>]
+Uses1=X2F4XLJP.DLL
+Uses2=
+
+[CC245JP.DLL <0011>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTJP.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTJP.inf
+
+[CR2C40JP.DLL <0011>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTJP.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTJP.inf
+
+[P3D4BDJP.DLL <0011>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTJP.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTJP.inf
+
+[P3BDAOJP.DLL <0011>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTJP.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTJP.inf
+
+[P3CDAOJP.DLL <0011>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTJP.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTJP.inf
+
+[P3RDAOJP.DLL <0011>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTJP.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTJP.inf
+
+[P3S4ODJP.DLL <0011>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTJP.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTJP.inf
+
+[X3D4DKJP.DLL <0011>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTJP.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTJP.inf
+
+[X3D4MPJP.DLL <0011>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTJP.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTJP.inf
+
+[X2F4CRJP.DLL <0011>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTJP.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTJP.inf
+
+[X2F4DFJP.DLL <0011>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTJP.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTJP.inf
+
+[X2F4HTJP.DLL <0011>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTJP.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTJP.inf
+
+[X2F4RCJP.DLL <0011>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTJP.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTJP.inf
+
+[X2F4RTJP.DLL <0011>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTJP.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTJP.inf
+
+[X2F4SVJP.DLL <0011>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTJP.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTJP.inf
+
+[X2F4TXJP.DLL <0011>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTJP.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTJP.inf
+
+[X2F4WKJP.DLL <0011>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTJP.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTJP.inf
+
+[X2F4WDJP.DLL <0011>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTJP.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTJP.inf
+
+[X2F4XLJP.DLL <0011>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTJP.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTJP.inf
+
+; *** Korean ***
+; (0012 = primary langid for Korean)
+
+[CRYSTL32.OCX <0012>]
+Uses1=CC245KO.DLL
+Uses2=
+
+[CRPE32.DLL <0012>]
+Uses1=CR2C40KO.DLL
+Uses2=
+
+[P2BBND.DLL <0012>]
+Uses1=P3D4BDKO.DLL
+Uses2=
+
+[P2BDAO.DLL <0012>]
+Uses1=P3BDAOKO.DLL
+Uses2=
+
+[P2CTDAO.DLL <0012>]
+Uses1=P3CDAOKO.DLL
+Uses2=
+
+[P2IRDAO.DLL <0012>]
+Uses1=P3RDAOKO.DLL
+Uses2=
+
+[P2SODBC.DLL <0012>]
+Uses1=P3S4ODKO.DLL
+Uses2=
+
+[U2DDISK.DLL <0012>]
+Uses1=X3D4DKKO.DLL
+Uses2=
+
+[U2DMAPI.DLL <0012>]
+Uses1=X3D4MPKO.DLL
+Uses2=
+
+[U2FCR.DLL <0012>]
+Uses1=X2F4CRKO.DLL
+Uses2=
+
+[U2FDIF.DLL <0012>]
+Uses1=X2F4DFKO.DLL
+Uses2=
+
+[U2FHTML.DLL <0012>]
+Uses1=X2F4HTKO.DLL
+Uses2=
+
+[U2FREC.DLL <0012>]
+Uses1=X2F4RCKO.DLL
+Uses2=
+
+[U2FRTF.DLL <0012>]
+Uses1=X2F4RTKO.DLL
+Uses2=
+
+[U2FSEPV.DLL <0012>]
+Uses1=X2F4SVKO.DLL
+Uses2=
+
+[U2FTEXT.DLL <0012>]
+Uses1=X2F4TXKO.DLL
+Uses2=
+
+[U2FWKS.DLL <0012>]
+Uses1=X2F4WKKO.DLL
+Uses2=
+
+[U2FWORDW.DLL <0012>]
+Uses1=X2F4WDKO.DLL
+Uses2=
+
+[U2FXLS.DLL <0012>]
+Uses1=X2F4XLKO.DLL
+Uses2=
+
+[CC245KO.DLL <0012>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTKO.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTKO.inf
+
+[CR2C40KO.DLL <0012>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTKO.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTKO.inf
+
+[P3D4BDKO.DLL <0012>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTKO.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTKO.inf
+
+[P3BDAOKO.DLL <0012>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTKO.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTKO.inf
+
+[P3CDAOKO.DLL <0012>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTKO.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTKO.inf
+
+[P3RDAOKO.DLL <0012>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTKO.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTKO.inf
+
+[P3S4ODKO.DLL <0012>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTKO.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTKO.inf
+
+[X3D4DKKO.DLL <0012>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTKO.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTKO.inf
+
+[X3D4MPKO.DLL <0012>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTKO.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTKO.inf
+
+[X2F4CRKO.DLL <0012>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTKO.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTKO.inf
+
+[X2F4DFKO.DLL <0012>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTKO.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTKO.inf
+
+[X2F4HTKO.DLL <0012>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTKO.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTKO.inf
+
+[X2F4RCKO.DLL <0012>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTKO.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTKO.inf
+
+[X2F4RTKO.DLL <0012>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTKO.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTKO.inf
+
+[X2F4SVKO.DLL <0012>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTKO.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTKO.inf
+
+[X2F4TXKO.DLL <0012>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTKO.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTKO.inf
+
+[X2F4WKKO.DLL <0012>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTKO.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTKO.inf
+
+[X2F4WDKO.DLL <0012>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTKO.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTKO.inf
+
+[X2F4XLKO.DLL <0012>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTKO.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTKO.inf
+
+; *** Chinese Traditional ***
+; (0404 = primary langid for Chinese Traditional)
+
+[CRYSTL32.OCX <0404>]
+Uses1=CC245CHT.DLL
+Uses2=
+
+[CRPE32.DLL <0404>]
+Uses1=CR2C40CHT.DLL
+Uses2=
+
+[P2BBND.DLL <0404>]
+Uses1=P3D4BDCHT.DLL
+Uses2=
+
+[P2BDAO.DLL <0404>]
+Uses1=P3BDAOCHT.DLL
+Uses2=
+
+[P2CTDAO.DLL <0404>]
+Uses1=P3CDAOCHT.DLL
+Uses2=
+
+[P2IRDAO.DLL <0404>]
+Uses1=P3RDAOCHT.DLL
+Uses2=
+
+[P2SODBC.DLL <0404>]
+Uses1=P3S4ODCHT.DLL
+Uses2=
+
+[U2DDISK.DLL <0404>]
+Uses1=X3D4DKCHT.DLL
+Uses2=
+
+[U2DMAPI.DLL <0404>]
+Uses1=X3D4MPCHT.DLL
+Uses2=
+
+[U2FCR.DLL <0404>]
+Uses1=X2F4CRCHT.DLL
+Uses2=
+
+[U2FDIF.DLL <0404>]
+Uses1=X2F4DFCHT.DLL
+Uses2=
+
+[U2FHTML.DLL <0404>]
+Uses1=X2F4HTCHT.DLL
+Uses2=
+
+[U2FREC.DLL <0404>]
+Uses1=X2F4RCCHT.DLL
+Uses2=
+
+[U2FRTF.DLL <0404>]
+Uses1=X2F4RTCHT.DLL
+Uses2=
+
+[U2FSEPV.DLL <0404>]
+Uses1=X2F4SVCHT.DLL
+Uses2=
+
+[U2FTEXT.DLL <0404>]
+Uses1=X2F4TXCHT.DLL
+Uses2=
+
+[U2FWKS.DLL <0404>]
+Uses1=X2F4WKCHT.DLL
+Uses2=
+
+[U2FWORDW.DLL <0404>]
+Uses1=X2F4WDCHT.DLL
+Uses2=
+
+[U2FXLS.DLL <0404>]
+Uses1=X2F4XLCHT.DLL
+Uses2=
+
+[CC245CHT.DLL <0404>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTCHT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHT.inf
+
+[CR2C40CHT.DLL <0404>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTCHT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHT.inf
+
+[P3D4BDCHT.DLL <0404>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTCHT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHT.inf
+
+[P3BDAOCHT.DLL <0404>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTCHT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHT.inf
+
+[P3CDAOCHT.DLL <0404>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTCHT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHT.inf
+
+[P3RDAOCHT.DLL <0404>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTCHT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHT.inf
+
+[P3S4ODCHT.DLL <0404>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTCHT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHT.inf
+
+[X3D4DKCHT.DLL <0404>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTCHT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHT.inf
+
+[X3D4MPCHT.DLL <0404>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTCHT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHT.inf
+
+[X2F4CRCHT.DLL <0404>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTCHT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHT.inf
+
+[X2F4DFCHT.DLL <0404>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTCHT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHT.inf
+
+[X2F4HTCHT.DLL <0404>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTCHT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHT.inf
+
+[X2F4RCCHT.DLL <0404>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTCHT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHT.inf
+
+[X2F4RTCHT.DLL <0404>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTCHT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHT.inf
+
+[X2F4SVCHT.DLL <0404>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTCHT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHT.inf
+
+[X2F4TXCHT.DLL <0404>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTCHT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHT.inf
+
+[X2F4WKCHT.DLL <0404>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTCHT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHT.inf
+
+[X2F4WDCHT.DLL <0404>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTCHT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHT.inf
+
+[X2F4XLCHT.DLL <0404>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTCHT.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHT.inf
+
+; *** Chinese Simplified ***
+; (0804 = primary langid for Chinese Simplified)
+
+[CRYSTL32.OCX <0804>]
+Uses1=CC245CHS.DLL
+Uses2=
+
+[CRPE32.DLL <0804>]
+Uses1=CR2C40CHS.DLL
+Uses2=
+
+[P2BBND.DLL <0804>]
+Uses1=P3D4BDCHS.DLL
+Uses2=
+
+[P2BDAO.DLL <0804>]
+Uses1=P3BDAOCHS.DLL
+Uses2=
+
+[P2CTDAO.DLL <0804>]
+Uses1=P3CDAOCHS.DLL
+Uses2=
+
+[P2IRDAO.DLL <0804>]
+Uses1=P3RDAOCHS.DLL
+Uses2=
+
+[P2SODBC.DLL <0804>]
+Uses1=P3S4ODCHS.DLL
+Uses2=
+
+[U2DDISK.DLL <0804>]
+Uses1=X3D4DKCHS.DLL
+Uses2=
+
+[U2DMAPI.DLL <0804>]
+Uses1=X3D4MPCHS.DLL
+Uses2=
+
+[U2FCR.DLL <0804>]
+Uses1=X2F4CRCHS.DLL
+Uses2=
+
+[U2FDIF.DLL <0804>]
+Uses1=X2F4DFCHS.DLL
+Uses2=
+
+[U2FHTML.DLL <0804>]
+Uses1=X2F4HTCHS.DLL
+Uses2=
+
+[U2FREC.DLL <0804>]
+Uses1=X2F4RCCHS.DLL
+Uses2=
+
+[U2FRTF.DLL <0804>]
+Uses1=X2F4RTCHS.DLL
+Uses2=
+
+[U2FSEPV.DLL <0804>]
+Uses1=X2F4SVCHS.DLL
+Uses2=
+
+[U2FTEXT.DLL <0804>]
+Uses1=X2F4TXCHS.DLL
+Uses2=
+
+[U2FWKS.DLL <0804>]
+Uses1=X2F4WKCHS.DLL
+Uses2=
+
+[U2FWORDW.DLL <0804>]
+Uses1=X2F4WDCHS.DLL
+Uses2=
+
+[U2FXLS.DLL <0804>]
+Uses1=X2F4XLCHS.DLL
+Uses2=
+
+[CC245CHS.DLL <0804>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTCHS.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHS.inf
+
+[CR2C40CHS.DLL <0804>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTCHS.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHS.inf
+
+[P3D4BDCHS.DLL <0804>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTCHS.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHS.inf
+
+[P3BDAOCHS.DLL <0804>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTCHS.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHS.inf
+
+[P3CDAOCHS.DLL <0804>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTCHS.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHS.inf
+
+[P3RDAOCHS.DLL <0804>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTCHS.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHS.inf
+
+[P3S4ODCHS.DLL <0804>]
+Dest=$(WinSysPath)
+Uses1=
+CABFileName=CRYSTCHS.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHS.inf
+
+[X3D4DKCHS.DLL <0804>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTCHS.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHS.inf
+
+[X3D4MPCHS.DLL <0804>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTCHS.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHS.inf
+
+[X2F4CRCHS.DLL <0804>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTCHS.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHS.inf
+
+[X2F4DFCHS.DLL <0804>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTCHS.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHS.inf
+
+[X2F4HTCHS.DLL <0804>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTCHS.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHS.inf
+
+[X2F4RCCHS.DLL <0804>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTCHS.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHS.inf
+
+[X2F4RTCHS.DLL <0804>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTCHS.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHS.inf
+
+[X2F4SVCHS.DLL <0804>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTCHS.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHS.inf
+
+[X2F4TXCHS.DLL <0804>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTCHS.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHS.inf
+
+[X2F4WKCHS.DLL <0804>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTCHS.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHS.inf
+
+[X2F4WDCHS.DLL <0804>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTCHS.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHS.inf
+
+[X2F4XLCHS.DLL <0804>]
+Dest=$(WinPath)\Crystal
+Uses1=
+CABFileName=CRYSTCHS.cab
+CABDefaultURL=http://activex.microsoft.com/controls/vb5
+CABINFFile=CRYSTCHS.inf
+

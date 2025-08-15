@@ -1,0 +1,30 @@
+﻿# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Oo]bj/
+[Ll]og/
+[Bb]in/[Dd]ebug/*.pdb
+[Bb]in/[Rr]elease/*.pdb
+Eforklift/[Bb]in/
+Eforklift/[Oo]bj/
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
